@@ -1,0 +1,5 @@
+#flyway:
+#  locations: ["classpath:db/migration/ddl", "classpath:db/migration/dml"]
+#
+#  jpa:
+#    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
