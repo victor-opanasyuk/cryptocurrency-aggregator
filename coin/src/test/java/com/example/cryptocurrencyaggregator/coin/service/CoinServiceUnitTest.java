@@ -19,7 +19,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-public class CoinServiceTest {
+public class CoinServiceUnitTest {
 
     private CoinService coinService;
 
@@ -48,7 +48,7 @@ public class CoinServiceTest {
     }
 
     @Test
-    void shouldGetAllVisits() {
+    void shouldGetAllCoins() {
         // given
         List<Coin> coins = Arrays.asList(
                 Coin.builder().build(),
