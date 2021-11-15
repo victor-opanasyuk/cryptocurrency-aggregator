@@ -1,4 +1,5 @@
 rootProject.name = 'cryptocurrency-aggregator'
+
 include 'application'
 include 'coin'
 include 'config'

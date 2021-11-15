@@ -1,21 +1,5 @@
-plugins {
-    id 'java'
-}
-
-group 'com.example'
-version '0.0.1-SNAPSHOT'
-
-repositories {
-    mavenCentral()
-}
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation project(':config')
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
-}
 
-test {
-    useJUnitPlatform()
 }
